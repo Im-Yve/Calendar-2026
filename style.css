@@ -24,7 +24,7 @@ body {
 .calendar-table th,
 .calendar-table td {
   text-align: center;
-  vertical-align: middle; /* vertical centering inside the row */
+  vertical-align: middle;
   padding: 10px;
 }
 
@@ -51,7 +51,6 @@ body {
     background-color: rgb(243, 80, 80);
 }
 
-/* ✅ Tooltip only applies to id="holiday" */
 #holiday {
     position: relative;
     cursor: pointer;
@@ -79,7 +78,7 @@ body {
     opacity: 1;
 }
 
-/* ✅ Small arrow under tooltip */
+
 #holiday::before {
     content: "";
     position: absolute;
@@ -99,7 +98,7 @@ body {
 
 .nav-links {
     display: flex;
-    justify-content: space-between; /* Keep left & right placement */
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     font-size: 20pt;
@@ -117,7 +116,7 @@ body {
 
 .nav-links p {
     flex: 1;
-    text-align: center; /* Keep month centered */
+    text-align: center; 
     font-size: 30pt;
     color: #f0f0f0;
     margin: 0;
@@ -131,3 +130,4 @@ body {
     background-color: rgb(10, 10, 36);
     color: white;
 }
+
